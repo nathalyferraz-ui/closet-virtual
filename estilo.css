@@ -1,0 +1,169 @@
+/* estilo do Closet Virtual */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf2f6;
+    margin: 0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #b0466e;
+}
+
+/* tela de login e cadastro */
+.caixa-login {
+    width: 320px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.caixa-login form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d6628d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0466e;
+}
+
+.caixa-login button {
+    width: 100%;
+}
+
+.link-menor {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+a {
+    color: #b0466e;
+}
+
+/* mensagens */
+.msg-erro {
+    background-color: #ffd9d9;
+    color: #a30000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.msg-sucesso {
+    background-color: #d9f5dd;
+    color: #1e6b2b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* menu do topo */
+.topo {
+    background-color: #d6628d;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topo nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.topo nav a:hover {
+    text-decoration: underline;
+}
+
+.ola {
+    padding: 0 30px;
+}
+
+.conteudo {
+    padding: 0 30px 30px 30px;
+}
+
+.formulario {
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.link-voltar {
+    margin-left: 15px;
+}
+
+/* filtro */
+.filtro {
+    margin-bottom: 20px;
+}
+
+.filtro select {
+    width: 200px;
+}
+
+.filtro label {
+    display: inline;
+}
+
+/* tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #f3c6d8;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.botao-editar {
+    background-color: #f3c6d8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
